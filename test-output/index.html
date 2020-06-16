@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\harib\AppData\Local\Temp\testng-eclipse--1470897025\testng-customsuite.xml</span>
+                    <span>C:\Users\harib\AppData\Local\Temp\testng-eclipse-881609112\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.hubspot.test.ContactsPageTest" hash-for-method="verifyContactsPageTitleTest">verifyContactsPageTitleTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.hubspot.test.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.hubspot.test.ContactsPageTest" hash-for-method="verifyCreateContactTest">verifyCreateContactTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.hubspot.test.LoginPageTest" hash-for-method="verifyLoginTest">verifyLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.hubspot.test.LoginPageTest" hash-for-method="verifySigupLinkTest">verifySigupLinkTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +130,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.hubspot.test.ContactsPageTest</span>
+              <span class="class-name">com.qa.hubspot.test.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyContactsPageTitleTest">
-                  </a> <!-- verifyContactsPageTitleTest -->
-                  <span class="method-name">verifyContactsPageTitleTest</span>
+                  <a name="verifyLoginPageTitleTest">
+                  </a> <!-- verifyLoginPageTitleTest -->
+                  <span class="method-name">verifyLoginPageTitleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCreateContactTest">
-                  </a> <!-- verifyCreateContactTest -->
-                  <span class="method-name">verifyCreateContactTest</span>
+                  <a name="verifyLoginTest">
+                  </a> <!-- verifyLoginTest -->
+                  <span class="method-name">verifyLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySigupLinkTest">
+                  </a> <!-- verifySigupLinkTest -->
+                  <span class="method-name">verifySigupLinkTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +159,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\harib\AppData\Local\Temp\testng-eclipse--1470897025\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\harib\AppData\Local\Temp\testng-eclipse-881609112\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +168,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.hubspot.test.ContactsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hubspot.test.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -196,20 +208,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyCreateContactTest')
-data.setCell(0, 2, 'com.qa.hubspot.test.ContactsPageTest')
-data.setCell(0, 3, 5389);
+data.setCell(0, 1, 'verifySigupLinkTest')
+data.setCell(0, 2, 'com.qa.hubspot.test.LoginPageTest')
+data.setCell(0, 3, 5156);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyContactsPageTitleTest')
-data.setCell(1, 2, 'com.qa.hubspot.test.ContactsPageTest')
-data.setCell(1, 3, 430);
+data.setCell(1, 1, 'verifyLoginTest')
+data.setCell(1, 2, 'com.qa.hubspot.test.LoginPageTest')
+data.setCell(1, 3, 1063);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginPageTitleTest')
+data.setCell(2, 2, 'com.qa.hubspot.test.LoginPageTest')
+data.setCell(2, 3, 172);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,26 +251,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.hubspot.test.ContactsPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.hubspot.test.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">contactsPageSetup</span>
-                <span class="method-start">8260 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verifyContactsPageTitleTest</span>
-                <span class="method-start">21102 ms</span>
+                <span class="method-name">verifySigupLinkTest</span>
+                <span class="method-start">7133 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyCreateContactTest</span>
-                <span class="method-start">21537 ms</span>
+                <span class="method-name">verifyLoginPageTitleTest</span>
+                <span class="method-start">12296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTest</span>
+                <span class="method-start">12471 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26928 ms</span>
+                <span class="method-start">13536 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
